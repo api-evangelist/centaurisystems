@@ -1,23 +1,113 @@
 aid: centaurisystems
+
 name: Centauri Systems
-description: 'Centauri Systems is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://centaurisystems.io/og-image-home.png
+
+description: Centauri Systems provides a developer portal platform and API tooling built for Apigee. Their solutions enable rapid deployment of
+  branded developer portals, API productization, and integrated tooling such as AI‑driven page builders, pricing calculators, and multi‑org management.
+  The company offers products like Launchpad and Aphelion, targeting enterprises seeking to accelerate API adoption on Google Cloud Marketplace.
+
 url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-16 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-16'
+
 modified: '2026-10-16'
+
 tags:
 - Company
-apis: []
+- Developer-Portal
+- API-Tooling
+- Apigee
+- Cloud-Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/centaurisystems-plans-pricing.yml
+- type: Spectral
+  url: rules/centaurisystems-rules.yml
+- type: JSONLD
+  url: json-ld/centaurisystems-context.jsonld
+- type: Vocabulary
+  url: vocabulary/centaurisystems-vocabulary.yml
+- type: DataModel
+  url: data-model/centaurisystems-data-model.yml
+- type: Conformance
+  url: conformance/centaurisystems-conformance.yml
+- type: LLMsTxt
+  url: llms/centaurisystems-llms.txt
+- type: Hosts
+  url: hosts/centaurisystems-hosts.yml
+- type: Vendors
+  url: vendors/centaurisystems-vendors.yml
+- type: SDKs
+  url: packages/centaurisystems-packages.yml
+- type: Packages
+  url: packages/centaurisystems-packages.yml
+- type: TermsOfService
+  url: https://centaurisystems.io/terms
+- type: PrivacyPolicy
+  url: https://centaurisystems.io/privacy
+- type: GitHubOrganization
+  url: https://github.com/CentauriSystems
+- type: DomainSecurity
+  url: security/centaurisystems-domain-security.yml
 - type: Website
   url: https://centaurisystems.io/
+- type: Documentation
+  url: https://centaurisystems.io/docs
+- type: Pricing
+  url: https://centaurisystems.io/pricing
+- type: GettingStarted
+  url: https://centaurisystems.io/docs/quickstart
+
+apis:
+- name: Launchpad API
+  description: Launchpad developer portal API for Centauri Systems
+  humanURL: https://centaurisystems.io/docs
+  baseURL: null
+  aid: centaurisystems:launchpad-api
+- aid: centaurisystems:centaurisystems-api
+  name: Centauri Systems API
+  description: 'Centauri Systems API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-16);
+
+    not the provider''s own document.'
+  humanURL: https://centaurisystems.io/insights/zero-trust-architecture
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/centaurisystems-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/centaurisystems-post-oauth-token-response-schema.json
+  - type: JSONSchema
+    url: json-schema/centaurisystems-post-oauth-token-request-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered via JavaScript and no machine‑readable OpenAPI spec was found.
+  evidence:
+  - url: https://centaurisystems.io/docs
+    status: 200
+  checked: '2026-10-16'
+x-enrichment:
+  date: '2026-10-16'
+  status: enriched
+  artifacts_added: 17
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

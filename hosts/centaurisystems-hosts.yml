@@ -1,0 +1,66 @@
+generated: '2026-10-16'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 3
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - other
+  - source
+  - website
+hosts:
+- host: api.centaurisystems.io
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: centaurisystems.io
+  role: api
+  relation: own
+- host: centaurisystems.io
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Website
+  - Documentation
+  - Pricing
+  - GettingStarted
+  serves:
+  - docs
+  - hosting
+  vendor: netlify
+  registrable_domain: centaurisystems.io
+  role: website
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: launchpad.centaurisystems.io
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: centaurisystems.io
+  role: other
+  relation: own

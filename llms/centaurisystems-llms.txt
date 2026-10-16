@@ -1,0 +1,36 @@
+# Centauri Systems
+
+> Centauri Systems is a Google Cloud Select Technology Partner with Apigee specialization. We build Launchpad, a fully managed developer portal for Apigee X and Apigee Edge, plus API observability and AI agent marketplace products for enterprise Apigee platform teams.
+
+Launchpad is one of the four ways to run a developer portal on Apigee X, alongside the Apigee Integrated Portal, the Apigee Drupal portal, and a custom React build. It deploys in your own GCP project in 48 hours, is transactable on Google Cloud Marketplace, and counts toward GCP committed spend. Custom React components are added with the `@centaurisystems/launchpad-sdk` npm package.
+
+## Products
+
+- [Launchpad developer portal for Apigee](https://centaurisystems.io/products/launchpad): Fully managed Apigee X and Edge developer portal with an AI page builder, Scalar API reference docs, SSO (SAML, OIDC, OAuth 2.0), RBAC, multi-org support, and a React component SDK. From $400/month.
+- [Launchpad pricing](https://centaurisystems.io/pricing): Starter, Growth, Scale, and Enterprise tiers from $400 to $4,000 per month, annual billing gets two months free, all available on Google Cloud Marketplace.
+- [Launchpad documentation](https://centaurisystems.io/docs): Quickstart, architecture, Apigee connection, SSO, RBAC, API products, page builder, and branding guides.
+- [Orbit](https://centaurisystems.io/products/orbit): Real-time Apigee observability.
+- [Aphelion](https://centaurisystems.io/products/aphelion): AI-native API and agent marketplace.
+
+## Apigee developer portal guides
+
+- [How to build a developer portal for Apigee](https://centaurisystems.io/insights/build-apigee-developer-portal): Compares the Apigee Integrated Portal, the Drupal portal, a custom React build, and Centauri Launchpad on hosting, customization, identity, docs, compliance, time to launch, and procurement, with sources.
+- [Apigee Integrated Portal limitations](https://centaurisystems.io/insights/apigee-integrated-portal-limitations): Sourced list of documented limits: cosmetic-only customization, no content-management API, not in FedRAMP scope, and developer accounts that do not migrate from Edge to X.
+- [Apigee Drupal portal alternatives](https://centaurisystems.io/insights/apigee-drupal-alternatives): Options for teams migrating off the Apigee Drupal developer portal, with a side-by-side comparison table and a migration checklist.
+- [Best developer portal platforms for APIs](https://centaurisystems.io/insights/best-api-portal-platforms): ReadMe, Backstage, SwaggerHub, Stoplight, Apigee Integrated Portal, and Centauri Launchpad compared.
+- [What is an Apigee developer portal?](https://centaurisystems.io/insights/what-is-apigee-developer-portal): Definition, what a portal includes, and why Apigee teams need one.
+- [Apigee developer portal architecture](https://centaurisystems.io/insights/apigee-portal-architecture): How a portal connects to Apigee X organizations, environments, and the Management API.
+- [Apigee X migration guide](https://centaurisystems.io/insights/apigee-x-migration-guide): Moving from Apigee Edge to Apigee X.
+- [Apigee X portal account migration](https://centaurisystems.io/insights/apigee-x-portal-account-migration): What happens to developer portal accounts when you move from Edge to X.
+- [Publishing APIs on Apigee](https://centaurisystems.io/insights/publish-apis-apigee): API products, developer apps, and the publishing workflow.
+
+## Tools
+
+- [Apigee tools](https://centaurisystems.io/tools): Free calculators and visualizers: subscription planner, quota simulator, OAuth visualizer, policy builder, topology designer, cache planner.
+
+## Company
+
+- [Case studies](https://centaurisystems.io/case-studies): Royal Caribbean, AutoZone, Payments Canada, Warner Media.
+- [Company](https://centaurisystems.io/company)
+- [Contact](https://centaurisystems.io/contact)
+- [Book a demo](https://centaurisystems.io/demo)

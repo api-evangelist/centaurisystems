@@ -1,0 +1,30 @@
+generated: '2026-10-16'
+method: searched
+source: https://centaurisystems.io/pricing
+name: Centauri Systems pricing
+audience: developer-api
+pricing_basis: tiered-subscription
+published: true
+plan_count: 3
+plans:
+  - name: Starter
+    description: Get started with your developer portal
+    price_text: "$333 /mo billed annually ( $4,000 /yr)"
+    price: 333
+    currency: USD
+    billing_period: month
+    limits: []
+  - name: Growth
+    description: Everything you need to scale
+    price_text: "$663 /mo billed annually ( $7,950 /yr)"
+    price: 663
+    currency: USD
+    billing_period: month
+    limits: []
+  - name: Scale
+    description: Best value for teams
+    price_text: "$1,625 /mo billed annually ( $19,500 /yr)"
+    price: 1625
+    currency: USD
+    billing_period: month
+    limits: []

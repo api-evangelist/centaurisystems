@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@vocab": "https://centaurisystems.io/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "centaurisystems": "https://centaurisystems.io/schema#",
+    "PostOauthTokenRequest": "centaurisystems:PostOauthTokenRequest",
+    "client_credentials": {
+      "@id": "centaurisystems:client_credentials",
+      "@type": "xsd:string"
+    },
+    "user_authentication": {
+      "@id": "centaurisystems:user_authentication",
+      "@type": "xsd:string"
+    },
+    "PostOauthTokenResponse": "centaurisystems:PostOauthTokenResponse",
+    "iss": {
+      "@id": "centaurisystems:iss",
+      "@type": "xsd:string"
+    },
+    "sub": {
+      "@id": "centaurisystems:sub",
+      "@type": "xsd:string"
+    },
+    "aud": {
+      "@id": "centaurisystems:aud",
+      "@type": "xsd:string"
+    },
+    "exp": {
+      "@id": "centaurisystems:exp",
+      "@type": "xsd:string"
+    },
+    "scope": {
+      "@id": "centaurisystems:scope",
+      "@type": "xsd:string"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Centauri Systems API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Centauri Systems's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-16) from openapi/_ae-authored/centaurisystems-openapi-generated.yml.",
+  "dcterms:created": "2026-10-16",
+  "dcterms:source": [
+    "openapi/_ae-authored/centaurisystems-openapi-generated.yml"
+  ]
+}

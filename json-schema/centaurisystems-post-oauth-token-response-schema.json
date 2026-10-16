@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/centaurisystems/main/json-schema/centaurisystems-post-oauth-token-response-schema.json",
+  "title": "PostOauthTokenResponse",
+  "x-generated": "2026-10-16",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/centaurisystems-openapi-generated.yml#/components/schemas/PostOauthTokenResponse",
+  "type": "object",
+  "properties": {
+    "iss": {
+      "type": "string",
+      "description": "Issuer of the JWT"
+    },
+    "sub": {
+      "type": "string",
+      "description": "Subject (user identifier) of the JWT"
+    },
+    "aud": {
+      "type": "string",
+      "description": "Audience of the JWT"
+    },
+    "exp": {
+      "type": "string",
+      "description": "Expiration time of the JWT"
+    },
+    "scope": {
+      "type": "string",
+      "description": "Granted scopes"
+    }
+  }
+}

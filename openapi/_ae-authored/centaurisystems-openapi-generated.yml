@@ -1,0 +1,103 @@
+openapi: 3.1.0
+info:
+  title: Centauri Systems API
+  version: '2026-10-16'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-16: 3 operation(s) read from 1 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Centauri Systems has published no machine-readable contract that
+    the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 3
+    pages-with-code: 0
+    pages-read: 1
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-16'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://centaurisystems.io/insights/zero-trust-architecture
+paths:
+  /oauth/token:
+    post:
+      operationId: post_oauth_token
+      tags:
+      - Oauth
+      summary: Zero Trust Architecture for Cloud-Native APIs
+      x-source: https://centaurisystems.io/insights/zero-trust-architecture
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostOauthTokenRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostOauthTokenResponse'
+      x-evidence:
+        kind: documentation
+  /payments:
+    post:
+      operationId: post_payments
+      tags:
+      - Payments
+      summary: Zero Trust Architecture for Cloud-Native APIs
+      x-source: https://centaurisystems.io/insights/zero-trust-architecture
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /users:
+    get:
+      operationId: get_users
+      tags:
+      - Users
+      summary: Zero Trust Architecture for Cloud-Native APIs
+      x-source: https://centaurisystems.io/insights/zero-trust-architecture
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    PostOauthTokenRequest:
+      type: object
+      properties:
+        client_credentials:
+          type: string
+          description: Credentials of the client application
+        user_authentication:
+          type: string
+          description: User authentication data
+      required:
+      - client_credentials
+      - user_authentication
+    PostOauthTokenResponse:
+      type: object
+      properties:
+        iss:
+          type: string
+          description: Issuer of the JWT
+        sub:
+          type: string
+          description: Subject (user identifier) of the JWT
+        aud:
+          type: string
+          description: Audience of the JWT
+        exp:
+          type: string
+          description: Expiration time of the JWT
+        scope:
+          type: string
+          description: Granted scopes
+tags:
+- name: Oauth
+- name: Payments
+- name: Users
