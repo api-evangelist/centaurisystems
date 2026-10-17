@@ -1,0 +1,20 @@
+{
+  "provider": "centaurisystems",
+  "sources": [
+    "_ae-authored/centaurisystems-openapi-generated.yml"
+  ],
+  "outputs": [
+    "centaurisystems-oauth-api-openapi.yml",
+    "centaurisystems-payments-api-openapi.yml",
+    "centaurisystems-users-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "centaurisystems-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: written (+3 apis, 4 total)"
+  ],
+  "skipped": []
+}
