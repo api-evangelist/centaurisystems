@@ -25,6 +25,12 @@ modified: '2026-10-16'
 
 tags:
 - Company
+- Developer Portal
+- API Tooling
+- Apigee
+- Cloud Platform
+tags_raw:
+- Company
 - Developer-Portal
 - API-Tooling
 - Apigee
@@ -87,6 +93,8 @@ apis:
   description: The Oauth API from Centauri Systems — 1 operation(s) for oauth.
   humanURL: https://centaurisystems.io/docs
   tags:
+  - Authentication
+  tags_raw:
   - Oauth
   properties:
   - type: OpenAPI
@@ -113,6 +121,8 @@ apis:
   description: The Users API from Centauri Systems — 1 operation(s) for users.
   humanURL: https://centaurisystems.io/docs
   tags:
+  - User
+  tags_raw:
   - Users
   properties:
   - type: OpenAPI
